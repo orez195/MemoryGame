@@ -1,0 +1,79 @@
+.pic1{
+    background-image: url("../images/1.jpg");
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+}
+
+.pic2{
+    background-image: url("../images/2.jpg");
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+}
+
+.pic3{
+    background-image: url("../images/3.jpg");
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+}
+
+.pic4{
+    background-image: url("../images/4.jpg");
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+}
+
+.pic5{
+    background-image: url("../images/5.jpg");
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+}
+
+.pic6{
+    background-image: url("../images/6.jpg");
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+}
+
+.addFrame {
+    border: 5px solid green;
+}
+
+.backsidePic{
+    background-image: url('../images/texture.jpg');
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    background-repeat: none;
+}
+
+#overlay {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+    cursor: pointer;
+}
+
+#winGame {
+    color: white;
+}
+
+#reset {
+    display: none;
+}
+
+#incorrect {
+    font-size: 40px;
+}

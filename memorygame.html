@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Memory Game</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body onload="removeBack()">
+    <div id="incorrect"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 backsidePic"></div>
+            <div class="col-md-3 backsidePic"></div>  
+            <div class="col-md-3 backsidePic"></div>
+            <div class="col-md-3 backsidePic"></div>
+        </div>
+        <div class="row">
+            <div class="col-md-3 backsidePic"></div>
+            <div class="col-md-3 backsidePic"></div>
+            <div class="col-md-3 backsidePic"></div>
+            <div class="col-md-3 backsidePic"></div>
+        </div>
+        <div class="row">
+            <div class="col-md-3 backsidePic"></div>
+            <div class="col-md-3 backsidePic"></div>
+            <div class="col-md-3 backsidePic"></div>
+            <div class="col-md-3 backsidePic"></div>
+        </div>
+    </div>
+    <div id="overlay">
+        <h1 id="winGame"></h1>
+        <button id="reset" onClick="window.location.reload()">New Game</button>
+    </div>
+    <script src="./js/memorygame.js"></script>
+</body>
+</html>
